@@ -1,0 +1,2 @@
+Propes : Props is used to make a reusable components(Reasuable means if we create a card and this card put it in component and reuse this components again and again)
+you can call any where App.jsx or main.jsx 

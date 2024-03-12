@@ -1,0 +1,14 @@
+Tailwind CSS use with vite
+npm install -D tailwindcss postcss autoprefixer(this is dependency)
+npx tailwindcss init -p (It generate the tailwind file)
+now open tailwind file and pest inside the content
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+  now open index.css and pest inside it at the top
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+npm run dev (for start the project on localhost)
